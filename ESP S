@@ -74,5 +74,3 @@ for i,p in next, ps:GetPlayers() do
         p_added(p)
     end
 end
-
-ps.PlayerAdded:Connect(p_added)
